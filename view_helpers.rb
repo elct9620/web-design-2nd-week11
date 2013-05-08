@@ -31,7 +31,7 @@ module ViewHelpers
       "web-design" => "Web Design",
       "code" => "Code",
       "Graphic" => "Graphic",
-      "illusation" => "Illusation"
+      "illusration" => "Illusration"
     }
 
     return categories[tags[0]]
