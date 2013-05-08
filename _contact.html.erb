@@ -1,0 +1,26 @@
+<section id="contact" class="animate-all hide">
+  <div class="small-header-inner">
+    <div class="container">
+      <h1 class="uppercase">Contact</h1>
+    </div>
+  </div>
+  <div class="container">
+    <p><%= data['contact']['description'] %></p>
+    <div class="span6">
+      <ul>
+        <% data['contact']['methods'].each do |method| %>
+          <li>
+            <div class="container">
+              <div class="span4 name">
+                <%= method[0] %>
+              </div>
+              <div class="span2 side">
+                <a href="<%= method[1] %>" target="_blank" title="<%= method[0] %>"><i class="icon-16 link">Go to <%= method[0] %></i></a>
+              </div>
+            </div>
+          </li>
+        <% end %>
+      </ul>
+    </div>
+  </div>
+</section>

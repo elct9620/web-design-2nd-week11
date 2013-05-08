@@ -1,0 +1,24 @@
+<section id="about" class="container animate-all">
+  <h1 class="none-display">About</h1>
+  <div class="span6">
+    <atricle>
+      <h2 class="font-normal uppercase"><%= data['about']['title'] %></h2>
+      <p>
+        <%= data['about']['description'] %>
+      </p>
+      <ul class="inline">
+        <% data['about']['meta'].each do |item| %>
+          <li class="label round"><%= item %></li>
+        <% end %>
+      </ul>
+    </article>
+    <article>
+      <h3 class="font-normal uppercase">Loves</h3>
+      <ul class="inline">
+        <% data['about']['loves'].each do |item| %>
+          <li class="label round"><%= item %></li>
+        <% end %>
+      </ul>
+    </article>
+  </div>
+</section>

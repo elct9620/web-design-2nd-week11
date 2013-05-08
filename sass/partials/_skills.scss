@@ -1,0 +1,32 @@
+#skills, #contact {
+  ul {
+    margin: 0 -1em;
+    padding: 0;
+
+    list-style: none;
+
+    li {
+      border-bottom: 1px solid $secondary-color;
+
+      @include rhythm(0, 0.5, 0.5, 0);
+
+      &:last-child {
+        border-bottom: none;
+      }
+    }
+  }
+
+  .name {
+    font-weight: bold;
+  }
+
+  .side {
+    color: $base-color-light;
+
+    text-align: right;
+  }
+
+  .span2 {
+    @include omega;
+  }
+}

@@ -1,0 +1,25 @@
+<section id="skills" class="animate-all hide">
+  <div class="small-header-inner">
+    <div class="container">
+      <h1 class="uppercase">Skills</h1>
+    </div>
+  </div>
+  <div class="container">
+    <div class="span6">
+      <ul>
+        <% data['skills'].each do |skill| %>
+          <li>
+            <div class="container">
+              <div class="span4 name">
+                <%= skill[0] %>
+              </div>
+              <div class="span2 side">
+                <%= skill[1] %> / 100
+              </div>
+            </div>
+          </li>
+        <% end %>
+      </ul>
+    </div>
+  </div>
+</section>

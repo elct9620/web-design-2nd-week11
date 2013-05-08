@@ -1,0 +1,55 @@
+
+body {
+  color: $base-color-dark;
+
+  font-family: $base-font-family;
+
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+
+  &.mini-menu {
+    padding-bottom: 50px;
+  }
+}
+
+@include establish-baseline;
+
+h1 {
+  @include adjust-font-size-to(26px);
+}
+
+h2 {
+  @include adjust-font-size-to(18px);
+}
+
+h3 {
+  @include adjust-font-size-to(16px);
+}
+
+p {
+  @include leader;
+  @include trailer;
+}
+
+#wrapper {
+  @include leader;
+
+  &.small-header {
+    @include leader(0);
+  }
+}
+
+// Hide
+.none-display {
+  display: none;
+}
+
+// Font Normal
+
+.font-normal {
+  font-weight: normal;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}

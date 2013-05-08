@@ -1,0 +1,14 @@
+
+.container {
+  @include container;
+
+  @include at-breakpoint(480px 8) {
+    @include set-container-width(8);
+  }
+}
+
+@for $i from 1 to 7 {
+  .span#{$i} {
+    @include span-columns($i);
+  }
+}
