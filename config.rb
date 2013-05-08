@@ -22,4 +22,5 @@ relative_assets = true
 # sass-convert -R --from scss --to sass sass scss && rm -rf sass && mv scss sass
 preferred_syntax = :scss
 
-output_style = :compressed # by Fire.app 
+
+output_style = :expanded # by Fire.app 
