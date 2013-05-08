@@ -141,7 +141,7 @@ ul.inline li {
 
 /* line 7, ../sass/modules/_icon.scss */
 .icon-16, .icon-32, .icon-48 {
-  background-image: url('/images/icons-s4c4426f9fb.png');
+  background-image: url('../images/icons-s4c4426f9fb.png');
   text-indent: -999999px;
   font-size: 0;
   display: block;
@@ -406,7 +406,7 @@ p {
   height: 100%;
   margin: 0;
   padding: 0;
-  background: url('/images/logo.png?1367907272') no-repeat center;
+  background: url('../images/logo.png?1367907272') no-repeat center;
   text-indent: -999999px;
 }
 /* line 32, ../sass/partials/_header.scss */

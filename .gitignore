@@ -1,0 +1,6 @@
+.coffeescript-cache/
+.sass-cache/
+stylesheets/
+javascripts/
+!javascripts/vendor
+fire_app_log.txt
